@@ -1,0 +1,34 @@
+names:
+- '-'
+- C 48 2.5
+- C 48 3.2
+- C 60 3.2
+- C 89 3.6
+- R 20 40 1.2
+- R 20 40 2.5
+- R 60 40 2
+- R 80 40 2
+- R 80 40 2.5
+- R 80 40 2.9
+- R 96 48 1.6
+- R 96 48 2.5
+- S 20 20 1.2
+- S 25 25 1.9
+- S 38 38 2
+- S 38 38 2.5
+- S 50 50 2
+- S 60 60 1.6
+- S 70 70 2
+- S 72 72 1.6
+- S 72 72 2
+nc: 22
+roboflow:
+  license: CC BY 4.0
+  project: pipe-classification
+  url: https://universe.roboflow.com/multipipedetection/pipe-classification/dataset/15
+  version: 15
+  workspace: multipipedetection
+train: ../Pipe--classification-15/train/images
+val: ../Pipe--classification-15/valid/images
+test: ../Pipe--classification-15/test/images
+

@@ -1,0 +1,11 @@
+python-dotenv
+scikit-learn
+torch
+torchvision
+torchaudio --index-url https://download.pytorch.org/whl/cu117
+ultralytics
+ipykernel
+roboflow
+setuptools
+
+.e
